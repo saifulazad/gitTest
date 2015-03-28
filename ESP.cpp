@@ -13,8 +13,9 @@ command           char array
 // hold response
 //u take any response randomly from here
 // but a valid response is followed by OK substring
-const char response[][40] = {"VAL  OK", "OK", "wifi HOME -86", "ERROR"};
-char sent(char *command , int timeout =0)
+const char response[][40] = {"List of values OK","VAL  OK", "OK", "wifi HOME -86", "ERROR"};
+
+char sent(char *command , int timeout =3)
 {
     //wait timeout till
 
@@ -55,6 +56,7 @@ char* current_network()
 {
     sent(" AT+CWJAP?");
 }
+bool
 /*
 @Description
 This is auth function connect with wifi AP
@@ -77,6 +79,32 @@ void connect2wifi(char *SSID , char *password)
     string containing "" so use escape char :)
     */
   //  sent("AT+CWJAP="",""")
+}
+/*
+@description
+
+This function will accomplished the whole connection
+process . Make the device ready for TCP/IP communication
+
+@param
+
+void
+
+@return
+
+bool
+
+*/
+bool connection_manager()
+{
+    if ( isAlive())
+    {
+        if()
+    }
+    else
+    {
+        return false  // as no response
+    }
 }
 int main()
 {
