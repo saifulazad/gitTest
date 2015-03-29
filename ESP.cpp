@@ -56,7 +56,7 @@ char* current_network()
 {
     sent(" AT+CWJAP?");
 }
-bool
+//bool
 /*
 @Description
 This is auth function connect with wifi AP
