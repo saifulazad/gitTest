@@ -1,4 +1,11 @@
+#include <cstdio>
 
+// hold response
+//u take any response randomly from here
+// but a valid response is followed by OK substring
+
+
+const char response[][40] = {"List of values OK","VAL  OK", "OK", "wifi HOME -86", "ERROR"};
 
 /*
 @description
@@ -10,11 +17,8 @@ command           char array
 
 
 */
-// hold response
-//u take any response randomly from here
-// but a valid response is followed by OK substring
-const char response[][40] = {"VAL  OK", "OK", "wifi HOME -86", "ERROR"};
-char sent(char *command , int timeout =0)
+
+char sent(char *command , int timeout =3)
 {
     //wait timeout till
 
@@ -28,11 +32,14 @@ char sent(char *command , int timeout =0)
 /*
 @ Description
 sent command "AT" to check device is ready
+
+
 @ param
 void
 
+
 @return
-void
+bool
 
 */
 
@@ -47,10 +54,40 @@ bool isAlive()
 
     */
 }
+
+/*
+@description
+This function will provide the Fw version of connected module
+
+@param
+
+void
+
+@return
+
+char[]  the fw version
+
+*/
 char* getFwVersion()
 {
     sent("AT+GMR");
 }
+
+/*
+@description
+This function will provide the  connected AP
+
+@param
+
+void
+
+@return
+
+char[]  the AP IP
+char[]  the Station IP
+
+*/
+
 char* current_network()
 {
     sent(" AT+CWJAP?");
@@ -65,20 +102,58 @@ with user info SSID name and pass
 SSID           char array
 password       char array
 
-@param
-return
+@return
 
-void
-
+char[]  the AP IP
+char[]  the Station IP
 */
-void connect2wifi(char *SSID , char *password)
+char* connect2wifi(char *SSID , char *password)
 {
     /*
     string containing "" so use escape char :)
     */
   //  sent("AT+CWJAP="",""")
 }
+/*
+@Description
+Will search the sorounding Wi-Fi AP
+@param
+
+void
+
+@return
+list of sorounding Wi-Fi AP
+
+*/
+
+
+/*
+@description
+
+This function will accomplished the whole connection
+process . Make the device ready for TCP/IP communication
+
+@param
+
+void
+
+@return
+
+bool
+
+*/
+bool connection_manager()
+{
+    if ( isAlive())
+    {
+        //if()
+    }
+    else
+    {
+        return false ; // as no response
+    }
+}
 int main()
 {
-
+    printf("Hi");
 }
