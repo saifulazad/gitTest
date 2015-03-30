@@ -7,6 +7,8 @@
 
 const char response[][40] = {"List of values OK","VAL  OK", "OK", "wifi HOME -86", "ERROR"};
 
+
+
 /*
 @description
 Sent data via UART 16550 peripherals
