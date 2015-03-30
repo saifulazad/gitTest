@@ -10,6 +10,9 @@ const char response[][40] = {"List of values OK","VAL  OK", "OK", "wifi HOME -86
 
 
 /*
+
+
+
 @description
 Sent data via UART 16550 peripherals
 @param
@@ -17,19 +20,19 @@ command           char array
 
 @return
 
-
 */
 
 char sent(char *command , int timeout =3)
 {
     //wait timeout till
-
+	// Zuel will do it
     // get response
     /*
         get a random response
         use rand function of c
         a successful response is followed by OK
     */
+	// zuel korse
 }
 /*
 @ Description
@@ -157,5 +160,5 @@ bool connection_manager()
 }
 int main()
 {
-    printf("Hia");
+    printf("Hi Sadi");
 }
