@@ -17,7 +17,6 @@ command           char array
 
 @return
 
-
 */
 
 char sent(char *command , int timeout =3)
@@ -157,5 +156,5 @@ bool connection_manager()
 }
 int main()
 {
-    printf("Hia");
+    printf("Hi Sadi");
 }
