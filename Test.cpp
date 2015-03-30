@@ -17,6 +17,10 @@ public:
     void push(char a);
     char pop();
 };
+char Stack::pop()
+{
+
+}
 int main()
 {
 
