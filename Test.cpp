@@ -21,6 +21,10 @@ char Stack::pop()
 {
 
 }
+void Stack::push()
+{
+    
+}
 int main()
 {
 
