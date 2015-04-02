@@ -22,9 +22,10 @@ char Stack::pop()
     top--;
     return a[top]
 }
-void Stack::push()
+void Stack::push(char b)
 {
-    
+    a[top] =a;
+    top++;
 }
 int main()
 {
