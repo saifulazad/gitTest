@@ -4,7 +4,7 @@
 //u take any response randomly from here
 // but a valid response is followed by OK substring
 
-
+// Change from sadi
 const char response[][40] = {"List of values OK","VAL  OK", "OK", "wifi HOME -86", "ERROR"};
 
 
