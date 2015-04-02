@@ -25,13 +25,14 @@ command           char array
 char sent(char *command , int timeout =3)
 {
     //wait timeout till
-
+	// Zuel will do it
     // get response
     /*
         get a random response
         use rand function of c
         a successful response is followed by OK
     */
+	// zuel korse
 }
 /*
 @ Description
@@ -44,6 +45,12 @@ void
 
 @return
 bool
+
+some new lines
+
+
+
+t
 
 */
 
