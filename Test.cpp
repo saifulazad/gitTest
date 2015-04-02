@@ -19,7 +19,8 @@ public:
 };
 char Stack::pop()
 {
-
+    top--;
+    return a[top]
 }
 void Stack::push()
 {
