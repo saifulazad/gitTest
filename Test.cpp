@@ -28,7 +28,7 @@ void Stack::push(char b)
     top++;
 }
 
-//sas
+//sadi
 int main()
 {
 
