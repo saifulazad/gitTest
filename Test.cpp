@@ -27,6 +27,7 @@ void Stack::push(char b)
     a[top] =a;
     top++;
 }
+//Azad
 int main()
 {
 
