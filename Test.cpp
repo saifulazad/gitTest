@@ -27,7 +27,8 @@ void Stack::push(char b)
     a[top] =a;
     top++;
 }
-//Azad vai koreas
+
+//sas
 int main()
 {
 
