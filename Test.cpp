@@ -27,7 +27,7 @@ void Stack::push(char b)
     a[top] =a;
     top++;
 }
-//Azad
+//Azad vai koreas
 int main()
 {
 
