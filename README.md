@@ -1,5 +1,5 @@
 # gitTest
-***GitHub supports many extras in Markdown that help you reference and link to people***. If you ever want to direct **a comment at someone**, you can prefix their name with an @ symbol: Hey @kneath — love your sweater!
+***GitHub supports many extras in Markdown that help you reference and link to people***. If you ever want to direct **a comment at someone**, you can prefix their name with an @ symbol: Hey @sadi22 — love your sweater!
 
 But I have to admit, tasks lists are my favorite:
 
