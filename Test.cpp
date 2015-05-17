@@ -2,6 +2,7 @@
 // Sadi
 
 // Stash test
+// a new line
 using namespace std;
 
 class Stack
