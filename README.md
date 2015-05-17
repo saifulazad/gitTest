@@ -3,8 +3,8 @@
 
 But I have to admit, tasks lists are my favorite:
 
-- [x] This is a complete item
-- [x] This is an   .. incomplete item
+- [x] This is an complete item
+- [x] This is an ..  .. incomplete item
 - [x] This is also incomplete 
 And, of course emoji! :sparkles: :camel: :boom:
 [link to Google!](http://google.com)
